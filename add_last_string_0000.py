@@ -34,8 +34,6 @@ def add_str_to_line(original_str,str_list):
     for line in str_list:
         list_result.append(original_str+line)
     return list_result
-        
-import os
 
 def get_filename_without_extension(file_path):
     base_name = os.path.abspath(file_path)
